@@ -1,0 +1,134 @@
+:root {
+    --main-color: #3BBADB;
+    --accent-color: #008AAA;
+    --highlight-color: #D1884F;
+    --font-family: 'Poppins';
+}
+
+body {
+    font-family: var(--font-family);
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 20px;
+    padding: 30px 20px;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+a i {
+    margin-left: 5px;
+}
+
+i {
+    font-size: 18px;
+}
+
+a.active,
+a:hover {
+    color: var(--highlight-color);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    margin-top: 100px;
+    border-radius: 0px 0px 0px 140px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: -19px 3px 0px -7px #3BBADB;
+}
+
+.text {
+    flex-basis: calc(65% - 20px);
+}
+
+h3.welcome {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--main-color);
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+span.design-word {
+    color: var(--highlight-color);
+}
+
+#intro-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right:188px
+}
+
+span.see-more {
+    color: var(--main-color);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#buttons {
+    margin-top: 20px;
+    margin-right:  188px;
+    margin-left: -10px;
+
+}
+
+h1.hi {
+    color: var(--accent-color);
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: white;
+    color: #3BBADB;
+    border: 1px solid #3BBADB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: var(--accent-color);
+    box-shadow: 0px 5px 5px 0px #3BBADB;
+}
